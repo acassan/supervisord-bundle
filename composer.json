@@ -1,5 +1,5 @@
 {
-    "name": "acassan/supervisordBundle",
+    "name": "acassan/supervisord-bundle",
     "type": "symfony-bundle",
     "description": "Symfony 2 bundle Supervisord  manager",
     "keywords": ["Supervisor","Supervisord","Symfony2","Bundle"],
