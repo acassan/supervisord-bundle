@@ -1,9 +1,9 @@
 {
-    "name": "acassan/supervisord",
+    "name": "acassan/supervisordBundle",
     "type": "symfony-bundle",
-    "description": "Symfony 2 Supervisord manager",
-    "keywords": ["supervisor","supervisord","Symfony2"],
-    "homepage": "https://github.com/acassan/supervisord",
+    "description": "Symfony 2 bundle Supervisord  manager",
+    "keywords": ["Supervisor","Supervisord","Symfony2","Bundle"],
+    "homepage": "https://github.com/acassan/supervisordBundle",
     "license": "MIT",
     "authors": [
         {
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Supervisord": ""
+            "SupervisordBundle": ""
         }
     }
 }
