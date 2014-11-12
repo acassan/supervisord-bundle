@@ -1,0 +1,4 @@
+services:
+    supervisord:
+        class: SupervisordBundle\Service\Supervisord
+        arguments: [@templating, %kernel.root_dir%]
