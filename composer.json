@@ -1,0 +1,26 @@
+{
+    "name": "acassan/supervisord",
+    "type": "symfony-bundle",
+    "description": "Symfony 2 Supervisord manager",
+    "keywords": ["supervisor","supervisord","Symfony2"],
+    "homepage": "https://github.com/acassan/supervisord",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexis Cassan",
+            "email": "contact@alexiscassan.fr",
+            "homepage": "http://www.alexiscassan.fr"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "~2.1",
+        "symfony/process":          "~2.1",
+        "symfony/twig-bundle":      "~2.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "Supervisord": ""
+        }
+    }
+}
