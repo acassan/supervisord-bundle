@@ -1,6 +1,5 @@
 <?php
-
-namespace Ivan1986\SupervisorBundle\Command;
+namespace SupervisordBundle\Command;
 
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
 use Symfony\Component\Console\Input\InputArgument;

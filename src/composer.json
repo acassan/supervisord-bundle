@@ -5,22 +5,27 @@
     "keywords": ["Supervisor","Supervisord","Symfony2","Bundle"],
     "homepage": "https://github.com/acassan/supervisordBundle",
     "license": "MIT",
+
     "authors": [
         {
             "name": "Alexis Cassan",
             "email": "contact@alexiscassan.fr",
             "homepage": "http://www.alexiscassan.fr"
+        },
+        {
+            "name": "Supervisord",
+            "homepage": "https://github.com/acassan/supervisord-bundle/graphs/contributors"
         }
     ],
+
     "require": {
-        "php": ">=5.3.2",
-        "symfony/framework-bundle": "~2.1",
-        "symfony/process":          "~2.1",
-        "symfony/twig-bundle":      "~2.1"
+        "php"                           : ">=5.3.2",
+        "symfony/framework-bundle"      : "~2.1",
+        "symfony/process"               : "~2.1",
+        "symfony/twig-bundle"           : "~2.1"
     },
+
     "autoload": {
-        "psr-0": {
-            "SupervisordBundle": ""
-        }
+        "psr-4": { "SupervisordBundle\\": "vendor/acassan/supervisord-bundle/src" }
     }
 }

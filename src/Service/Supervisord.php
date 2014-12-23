@@ -66,6 +66,7 @@ Class Supervisord
         $p->setWorkingDirectory($this->appDir);
         $p->run();
         $p->wait();
+
         return $p;
     }
 
