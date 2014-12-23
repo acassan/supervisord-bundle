@@ -26,6 +26,6 @@
     },
 
     "autoload": {
-        "psr-4": { "SupervisordBundle\\": "vendor/acassan/supervisord-bundle/src" }
+        "psr-4": { "SupervisordBundle\\": "src" }
     }
 }
