@@ -34,11 +34,11 @@ Class Supervisord
      */
     public function genProgrammConf($fileName, $vars)
     {
-        $template   = '@Supervisord/programm.conf.twig';
+        $template   = 'SupervisordBundle:conf:program.conf.twig';
         $filePath   = $this->appDir.'/supervisor/'.$fileName.'.conf';
 
         // Handle directory
-        if(!$vars['directory']) {
+        if(!isset($vars['directory'])) {
             $vars['directory'] = $this->appDir;
         }
 

@@ -17,7 +17,7 @@ class InitCommand extends ContainerAwareCommand
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $conf = $this->getContainer()->get('templating')->render('@Supervisord/supervisord.conf.twig', array(
+        $conf = $this->getContainer()->get('templating')->render('@SupervisordBundle/supervisord.conf.twig', array(
 
         ));
         file_put_contents($this->getContainer()->getParameter('kernel.root_dir').'/supervisord.conf', $conf);

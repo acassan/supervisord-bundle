@@ -1,0 +1,8 @@
+[program:{{ name }}]
+directory={{ directory }}
+command={% block cmd %}php console {{ command }}{% endblock cmd %}
+process_name=%(program_name)s%(process_num)02d
+numprocs={{ numprocs|default('1') }}
+{% for key,value in options %}
+{{ key }}={{ value }}
+{% endfor %}
